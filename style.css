@@ -1,0 +1,450 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(fam.jpg);
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 60px;
+    position: absolute;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    text-align: center;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 28px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-o;
+}
+ .btn{
+    font-size: 16px;
+    width: 200px;
+    height: 25px;
+    color: #fff;
+    border: 2px solid transparent;
+    background: rgb(32, 32, 184);
+    cursor: pointer;
+    font-family: Arial;
+    outline: none;
+    border-radius: 20px;
+    
+}
+ul li a:hover{
+    color: orange;
+}
+.content{
+    text-align: center;
+    padding-top: 50px;
+
+    
+}
+.content h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 60px;
+
+}
+.content pre{
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px; 
+}
+.btnn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(25, 25, 160);
+    border: 2px solid transparent;
+    padding: 10px, 20px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btnn a{
+    color: white;
+    text-decoration-color:  white;
+}
+
+.btnn a:hover{
+    background-color:orange;
+}
+.btnn1{
+    width: 160px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btnn1 a{
+    text-decoration: white;
+    color: white
+}
+.btnn1 a:hover{
+    background: orange;
+}
+.branches{ 
+    width: 100%;
+    background: linear-gradient(to top,rgba(12, 9, 160, 0.5)50%,rgba(7, 14, 105, 0.5)50%), url(map.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 60px;
+    position: absolute;
+    height: 100vh; 
+}
+.branches-text h1{
+        width: 1200px;
+        height: 50px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Arial;
+        padding-left: 300px;
+        padding-top: 10px
+}
+.branches-text pre{
+    text-align: center;
+    color: white;
+    position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align-last: center;
+}
+.section3{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: transparent;
+}
+.section3 img{
+    width: 330px;
+    height: 500px;
+}
+.department{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}.form1{
+    width: 550px;
+    height: 500px; 
+    background-color: #fff;
+    align-items: center; 
+}
+
+ form{ 
+    margin-top: 15px;
+    padding-top: 10px;
+ }
+ form h1{
+    color: black;
+    font-size: 40px;
+    text-transform:capitalize;
+    margin-top: 10px;
+}
+form label{
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+form input{
+    width: 400px;
+    height: 50px;
+    background: rgba(0,0,0,0.5)50%;
+    border-bottom: 1px solid #0000;
+    border-top: none;
+    border-left: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ form input:hover{
+    color: orange;
+ }
+ form input value{
+    color: #0000;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+ form select{
+    width: 400px;
+    height: 50px; 
+    background: rgba(0,0,0,0.5)50%;
+    border-bottom: 1px solid #0000;
+    border-top: none;
+    border-left: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ form  button{
+    background: blue;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border: none;
+
+ }
+ form button:hover{
+    background-color: yellow;
+ }
+ .agency{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+ }
+ h3{
+    font-weight: bolder;
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ p{
+    font-size: 15px; 
+    text-align: center;
+
+ }
+ button{
+    background: blue;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+ }
+ button:hover{
+    background-color: orangered;
+ }
+.table1{
+    width: 100%;
+}
+table{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+table tr th{
+    color: black;
+    font-weight: bold;
+    font: 16px;
+}
+.section2{
+    width: 90%;
+    margin: 10px;
+    padding-left: 30px;
+}
+table{
+    width: 100%;
+}
+th{
+    color: #0000;
+    font-size: 18px;
+}
+.industry{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffff;
+}
+.content{
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 25px;
+}
+p{
+    text-emphasis-color: black;
+}
+.services{
+    width: 100%;
+    height: 500px;
+}
+.profile1{
+    -ms-flex-item-align: initial;
+    padding-left: 150px;
+    padding-top: 150px;
+    font-family: sans-serif;
+    border-color: 3px solid black;
+    text-align: center;
+    max-width: 150px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.5)50%;
+    padding: 20px;
+ 
+}
+.profile---image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+.profile---details{
+    font-size: 1em;
+    font-weight: bold;
+}
+.profile2{
+    -ms-flex-item-align: center;
+    padding-left: 300px;
+    padding-top: 150px;
+    font-family: sans-serif;
+    border-color: 3px solid black;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.5)50%;
+    padding: 20px;
+ 
+}
+.profile---image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+.profile---details{
+    font-size: 1em;
+    font-weight: bold;
+}
+.profile3{
+    -ms-flex-item-align: end;
+    padding-left: 600px;
+    padding-top: 150px;
+    font-family: sans-serif;
+    border-color: 3px solid black;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.5)50%;
+    padding: 20px;
+ 
+}
+.profile---image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+.profile---details{
+    font-size: 1em;
+    font-weight: bold;
+}
+.sub{
+    width: 100%
+    align-items: center;
+    padding-left: 330px;
+    padding-top: 50px;
+}
+.sub1{
+    width: 80%;
+    height: 20%;
+    background-color: hsla(244, 87%, 37%, 0.7);
+    
+}
+.sub .sub1 form{
+    width: 100%;
+    padding-left: 2px;
+    font-weight: bold;
+}
+.sub .sub1 form label{
+    padding-top: 2px;
+    color: white;
+    text-align: end left;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub .sub1 form input{
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 270px;
+    height: 45px;
+}
+.sub .sub1 form button{
+        width: 150px;
+        height: 45;
+        color: #ffff;
+        border-radius: 15px;
+    
+}
+.price{
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+.price h3{
+    text-align: end left;
+    padding-top: 80px;
+
+}
+.price pre{
+    padding-left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+}
